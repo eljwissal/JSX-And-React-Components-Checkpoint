@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xMDYtYmctbmFtLTM2LWxfMS5qcGc.jpg");
+  background-size: cover;
+  min-height: 100vh;
+ 
+}
+.container{
+  margin-top: 150px;
+  border: solid #b5b8c0;
+  border-radius: 5%;
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+  margin-bottom: 20px;
+}
+
+.FullName {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Address {
+  font-size: 18px;
+}
+.photo {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name {
+  color: #d84b9b;
+}
+p {
+  font-size: 1.3rem;
+  color: #756670;
+  
+}
+
+
+
